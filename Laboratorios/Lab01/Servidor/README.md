@@ -4,9 +4,9 @@
 
 - [Introduccion](#introducción)
     - [Objetivo](#objetivo)
-    - [Prerequisitos](#prerequisitos)
+    - [Prerrequisitos](#prerrequisitos)
     - [Herramientas utilizadas](#herramientas-utilizadas)
-    - [Librerias usadas](#librerias-usadas)
+    - [Librerías usadas](#librerias-usadas)
 - [Caracteristicas de funcionamiento](#caracteristicas-del-funcionamiento)
     - [Direccion IP y Puerto](#direccion-ip-y-puerto)
     - [Ejemplo de como realizar una peticion al servidor](#ejemplo-de-como-realizar-una-peticion-al-servidor)
@@ -25,15 +25,15 @@ GET (versión 0.9 del protocolo HTTP). Debe recibir peticiones HTTP y procesarla
 procesamiento de la petición debe permitir el localizar el recurso solicitado en el
 sistema de archivos local al mini-servidor. 
 
-### **Prerequisitos**
+### **Prerrequisitos**
 
 Para poderse conectar con el servidor se necesita el uso de un browser (ej: Chrome)
 
 ### **Herramientas utilizadas**
 
-El lenguaje que se utilzo para el desarrollo de este laboratorio fue python.
+El lenguaje que se utilizo para el desarrollo de este laboratorio fue python.
 
-### **Librerias usadas**
+### **Librerías usadas**
 
 - socket
 - threading 
@@ -42,12 +42,12 @@ El lenguaje que se utilzo para el desarrollo de este laboratorio fue python.
 ---
 ## **Caracteristicas del funcionamiento**
 
-- El mini-servidor es concurrente y permite que maximo 10 clientes se conecten al tiempo. 
+- El mini-servidor es concurrente y permite que máximo 10 clientes se conecten al tiempo. 
 - Solo puede procesar peticiones de tipo GET. 
-- Cuando el cliente se conecta y realiza una peticion, el servidor la procesa. Luego de procesarla envia la respuesta correspondiente y cierra la conexion. 
+- Cuando el cliente se conecta y realiza una petición, el servidor la procesa. Luego de procesarla envía la respuesta correspondiente y cierra la conexión. 
 - Para iniciar el servidor se debe realizar el siguiente proceso:
 
-    -   En la linea de comandos se debe ejecuctar el archivo server.py. Este seria el archivo principal y permitiria que el servidor pueda comenzar su ejecución. 
+    -  En la línea de comandos se debe ejecutar el archivo server.py. Este sería el archivo principal y permitiría que el servidor pueda comenzar su ejecución. 
 
     - El archivo se ejecuta de la siguiente forma:
 
