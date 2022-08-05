@@ -5,16 +5,23 @@ directory_root = "C:/Users/Usuario/Documents/Estudio/EAFIT/SegundoSemestre-2022/
 
 def conexion_cliente(cliente,dir_cliente):
     print(f'Conexion proveniente de: {dir_cliente[0]}')
+    print("")
+    print("-------------------------------------")
+    print("")
+
     conectado = True
     while conectado:
         request = cliente.recv(9999999).split(b"\r\n\r\n")
         descomponer_request = request[0].decode().split(' ')
         metodo = descomponer_request[0]
         nombre_archivo = descomponer_request[1]
-        print("*************************************")
-        print("Esta seria la solicitud que el usuario esta realizando: ")
+        print("Comienza el tratamiento de las peticiones!")
+        print("")
+        print("**************REQUEST**************")
+        print("Esta seria la solicitud que el usuario esta realizando:")
         print(f'{metodo} {nombre_archivo} HTTP/1.1')
-        print("*************************************")
+        print("")
+        print("**************RESPONSE**************")
         if (metodo == 'GET'):
             if nombre_archivo.lstrip('/') == '':
                 nombre_archivo = directory_root+"index.html"
@@ -29,8 +36,10 @@ def conexion_cliente(cliente,dir_cliente):
 
             print("Este seria la respuesta que se le envia al usuario: ")
             response = header + body_response
-            print(header.decode())
-            print("*************************************")
+            print(header.decode().strip("\r\n\r\n"))
+            print("")
+            print("-------------------------------------")
+            print("")
             cliente.sendall(response)
             conectado = False
         else:
