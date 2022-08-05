@@ -64,7 +64,7 @@ El puerto por el cual esta escuchando es el: 80
 
 ![Image text](https://github.com/MiguelZapata04/Topicos_Telematica/blob/master/Laboratorios/Lab01/Captura.png)
 
-Como se puede obersvar en la imagen la direccion "127.0.0.1" es la direccion del servidor al que nos estamos conectando que en este caso es el servidor minimalista. El numero "80" seria el puerto por el que esta escuchando el servidor y finalmente la ruta "video/planeta.mp4" es la ubicacion donde se encuentra el recurso que queremos solicitarle al servidor. Posteriormente el servidor procesa la peticion y retorna la respuesta correspondiente al cliente (browser) para que este pueda renderisarla. 
+Como se puede obersvar en la imagen la dirección "127.0.0.1" es la dirección del servidor al que nos estamos conectando que en este caso es el servidor minimalista. El numero "80" seria el puerto por el que esta escuchando el servidor y finalmente la ruta "video/planeta.mp4" es la ubicación donde se encuentra el recurso que queremos solicitarle al servidor. Posteriormente el servidor procesa la petición y retorna la respuesta correspondiente al cliente (browser) para que este pueda renderisarla. 
 
 ### **¿Que tipo de recursos se pueden solicitar al servidor?**
 
