@@ -66,7 +66,7 @@ Nota: La maquina se encuentra apagada, a la hora de calificación es necesario p
 La direccion IP del servidor seria: 127.0.0.1
 El puerto por el cual escucha es el: 80
 
-Nota: El codigo que se monto en este github es para usarlo en la maquina local. 
+Nota: El codigo que se monto en este github tiene los parametros de la la maquina local. 
 
 ### **Ejemplo de como realizar una peticion al servidor**
 
