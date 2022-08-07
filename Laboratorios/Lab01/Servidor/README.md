@@ -56,9 +56,17 @@ El lenguaje que se utilizo para el desarrollo de este laboratorio fue python.
         ```
 
 ### **Direccion IP y Puerto** 
-
+**AWS maquina:**
 La dirección IP del servidor es: 44.194.128.228
 El puerto por el cual esta escuchando es el: 80
+
+Nota: La maquina se encuentra apagada, a la hora de calificación es necesario prenderla. Por tal razon, es necesario que me comunique para poderla prender 
+
+**Maquina local:**
+La direccion IP del servidor seria: 127.0.0.1
+El puerto por el cual escucha es el: 80
+
+Nota: El codigo que se monto en este github es para usarlo en la maquina local. 
 
 ### **Ejemplo de como realizar una peticion al servidor**
 
