@@ -142,19 +142,22 @@ Se desarrollaron habilidades en el proceso de creación, despliegue y gestión d
 **URL:** [www.mazapataj.tk](www.mazapataj.tk)
 
 ### **Como se lanza el servidor**  
-1. Se accede a GCP y se dirige a la siguiente sección `Compute Engine`  
+1. Se accede a GCP a tráves de la siguiente URL: https://console.cloud.google.com/compute/instances?authuser=1&hl=es&project=topicos-telematica  
+> Al profeso se le enviara por interno el usuario y la clave para ingresar  
+
+2. Despues de haber ingresado se dirige a la siguiente sección `Compute Engine`  
 
     ![image text](img/Compute.png)  
     ![image text](img/compute2.png)  
 
-2. Se selecciona la instancia. Luego se le da en los 3 puntos que se muestra. Posterior a eso, se le en la opción de reanudar/iniciar. 
+3. Se selecciona la instancia. Luego se le da en los 3 puntos que se muestra. Posterior a eso, se le en la opción de reanudar/iniciar. 
     > Cabe aclarar que para efectos de esta entrega la maquina no se va a detener hasta que se realize la calificación.  
     
     ![image text](img/1.png)  
     ![image text](img/2.png)  
     ![image text](img/3.png)  
   
-3. Con la instancia en ejecución se realiza el siguiente procedimiento: 
+4. Con la instancia en ejecución se realiza el siguiente procedimiento: 
     * Al profesor se le envia la clave .ppk y el debe guardarla en alguna carpeta como se muestra a continuación.  
     ![image text](img/4.png)  
     * Luego de eso debe abrir la terminal y situarse en esa carpeta como se muestra a continuación.  
