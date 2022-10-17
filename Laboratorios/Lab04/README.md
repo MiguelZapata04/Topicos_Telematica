@@ -6,7 +6,7 @@
 > Profesor: Edwin Nelson Montoya, emontoya@eafit.edu.co  
 
 ## **1. Breve descripción de la actividad**  
-Tomando como punto de partida la aplicación monolítica desarrollada para el lab3 se busco mejorar la disponibilidad de esta dividiendola en varios nodos. A través de esto, se desarrollaron habilidades en el proceso de creación, despliegue y gestión de aplicaciones utilizando contenedores, particularmente docker en una maquina de GCP. 
+Tomando como punto de partida la aplicación monolítica desarrollada para el lab3 se busco mejorar la disponibilidad de esta, dividiendola en varios nodos. A través de esto, se desarrollaron habilidades en el proceso de creación, despliegue y gestión de aplicaciones utilizando contenedores, particularmente docker en una maquina de GCP. 
   
 ### **1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)**  
   
