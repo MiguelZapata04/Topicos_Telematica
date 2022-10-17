@@ -325,7 +325,7 @@ Configuración del load balancer usando nginx. También, se realizara la optenci
     ![image text](Capturas/Lanzar_servidor/maquinas_creadas.png)   
   
 4. Con la instancia en ejecución se realiza el siguiente procedimiento para ingresar mediante el protocolo ssh: 
-    * Al profesor se le envia la clave .pub y el debe guardarla en alguna carpeta como se muestra a continuación.  
+    * Al profesor se le envia la clave y el debe guardarla en alguna carpeta como se muestra a continuación.  
     ![image text](Capturas/Lanzar_servidor/clave_pub.png)  
     * Luego de eso debe abrir la terminal y situarse en esa carpeta como se muestra a continuación.  
     ![image text](Capturas/Lanzar_servidor/ubi.png)  
