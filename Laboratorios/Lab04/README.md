@@ -109,10 +109,10 @@ Tomando como punto de partida la aplicación monolítica desarrollada para el la
 Luego de haber realizado todo el proceso anterior se comienza con la configuración del docker para la base de datos, creación de usuarios y permisos. A continuación se mostraran las evidencias.  
   
 * **Ingresamos a la maquina de la bd**  
-![image text](Capturas/db_server/bd.png)  
+![image text](Capturas/db_Server/bd.png)  
 
 * **Creación carpeta docker:** `sudo mkdir docker`  
-![image text](Capturas/db_server/crea_carpeta_docker.png)  
+![image text](Capturas/db_Server/crea_carpeta_docker.png)  
 
 * **Se deben realizar los siguientes comandos para instalar docker y docker-compose:**  
     ```bash
@@ -124,37 +124,37 @@ Luego de haber realizado todo el proceso anterior se comienza con la configuraci
     ```   
 
 * **Se crea un dockerfile:** `sudo nano Dockerfile`  
-![image text](Capturas/db_server/archivo_dockerfile.png)  
+![image text](Capturas/db_Server/archivo_dockerfile.png)  
 
 * **Se crea un docker compose:** `sudo nano docker-compose.yaml`   
-![image text](Capturas/db_server/docker_compose.png)  
+![image text](Capturas/db_Server/docker_compose.png)  
 
 * **Cargar docker compose:** `sudo docker-compose up -d`  
-![image text](Capturas/db_server/cargando_docker_compose.png)  
+![image text](Capturas/db_Server/cargando_docker_compose.png)  
 
 * **Verificar que se haya cargado la imagen de mysql:** `sudo docker ps -a`  
-![image text](Capturas/db_server/Verificar_imagen_esta_arriba.png)  
+![image text](Capturas/db_Server/Verificar_imagen_esta_arriba.png)  
 
 * **Verificar que el docker compose este corriendo:** `sudo docker-compose ps`  
-![image text](Capturas/db_server/verificar_docker-compose_arriba.png)  
+![image text](Capturas/db_Server/verificar_docker-compose_arriba.png)  
   
 * **Configuración de las reglas ufw**  
-![image text](Capturas/db_server/configurando_reglas_ufw.png)
+![image text](Capturas/db_Server/configurando_reglas_ufw.png)
 
 * **Ingresar a MySQL:** `sudo docker exec -it mysql mysql -p`  
-![image text](Capturas/db_server/ingresar_a_mysql.png)  
+![image text](Capturas/db_Server/ingresar_a_mysql.png)  
 
 * **Creación de base de datos**  
-![image text](Capturas/db_server/create_db.png)  
+![image text](Capturas/db_Server/create_db.png)  
 
 * **Creacion de usuario remoto donde solo se le conceden permisos para acceder a la base de datos dbwp**  
-![image text](Capturas/db_server/create_user.png)  
+![image text](Capturas/db_Server/create_user.png)  
 
 Luego hay que verificar que cada cliente wordpress se pueda conectar con la base de datos 
 * **Ingresar a cada máquina de wordpress y ejecutar el siguiente comando:** `sudo apt install mysql-client`   
 
 * **Comprobar conexión de cada wordpress con mysql:** `mysql -h ip_maquina_db_server -u wp1 -p dbwp`  
-![image text](Capturas/db_server/verificar_conexion-cliente_con_db.png)  
+![image text](Capturas/db_Server/verificar_conexion-cliente_con_db.png)  
  
 ---
   
