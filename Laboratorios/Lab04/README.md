@@ -305,7 +305,7 @@ Configuración del load balancer usando nginx. También, se realizara la optenci
 **IP del wordpress 2:** `34.136.76.20`  
 
 **Dominio:** `mazapataj.tk`  
-**URL:** [lab4.mazapataj.tk](lab4.mazapataj.tk)
+**URL:** [https://lab4.mazapataj.tk/](https://lab4.mazapataj.tk/)
 
 ### **Como se lanza el servidor**  
 1. Se accede a GCP y se dirige a la siguiente sección `Compute Engine`  
