@@ -81,7 +81,7 @@ Se realizara la creacion de un cluster AWS EMR en Amazon, que permitira el desar
 ### **2.2. Configuración del bucket**  
   
 * Se busca el servicio S3 (servicio nfs que proporciona AWS)  
-![image text](img/bucket/correccion.png)  
+![image text](img/bucket/correcion.png)  
   
 * Configuración del bucket y creación
 ![image text](img/bucket/conf_bucket.png)  
