@@ -9,7 +9,12 @@
 Se realizara la creacion de un cluster AWS EMR en Amazon, que permitira el desarrollo de las siguientes actividades de este laboratorio. A tráves, de esta actividad se desarrollaran habilidades en la construcción y destrucción de un cluster en AWS.  
   
 ### **1.1. Que aspectos cumplió o desarrolló de la actividad propuesta por el profesor (requerimientos funcionales y no funcionales)**  
-  
+
+* Se logro realizar la creación de un cluster con el servicio de Amazon EMR.  
+* Se logro adecuar el cluster de tal manera que se pueda acceder a traves del protocolo ssh.
+* Se logro acceder a las interfaces de usuario disponibles en el servicio EMR.
+* Se logro configurar los puertos para cada interfaz de usuario para que su acceso fuera posible.  
+
 ---  
   
 ## **2. Descripción del ambiente de desarrollo y técnico: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones**  
