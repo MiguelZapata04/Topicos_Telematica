@@ -25,9 +25,7 @@ Se realizara la gestión de archivos via terminal en HDFS. Ademas, se realizara 
 **Plataforma de nube usada:** AWS (Amazon Web Services)  
 **Sistema operativo:**  Amazon Linux 2 AMI  
 **Servicio web utilizado:** EMR (Elastic MapReduce)  
-**Puerto para HUE:** 8888  
-**Puerto para JupyterHub:** 9443  
-**Puerto para Zeppelin:** 8890    
+**Puerto para HUE:** 8888     
   
 ### **Como se ejecuta:**  
   
