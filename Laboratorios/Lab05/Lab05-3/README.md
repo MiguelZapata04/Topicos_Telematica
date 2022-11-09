@@ -20,9 +20,9 @@ Se realizaran ejercicios básicos de MapReduce con MRJOB en python (puede ejecut
 ### **Como se ejecuta:**  
   
 **Archivos usados:**  
-* `dataempleados.txt`  
-* `dataempresas.txt`  
-* `datapeliculas.txt`
+* `dataempleados.txt` [Link del txt](https://github.com/MiguelZapata04/Topicos_Telematica/blob/master/Laboratorios/Lab05/Lab05-3/datasets/otros/dataempleados.txt)
+* `dataempresas.txt` [Link del txt](https://github.com/MiguelZapata04/Topicos_Telematica/blob/master/Laboratorios/Lab05/Lab05-3/datasets/otros/dataempresas.txt)
+* `datapeliculas.txt` [Link del txt](https://github.com/MiguelZapata04/Topicos_Telematica/blob/master/Laboratorios/Lab05/Lab05-3/datasets/otros/datapeliculas.txt)
   
 **En windows:**  
 ```bash 
