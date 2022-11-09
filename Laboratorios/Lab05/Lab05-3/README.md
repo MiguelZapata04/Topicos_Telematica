@@ -34,7 +34,7 @@ Se realizaran ejercicios básicos de MapReduce con MRJOB en python (puede ejecut
 python3 nombre_del_archivo /datasets/otros/archivo.txt 
 ```  
   
-En el siguiente link se encuentran los codigos correspondientes a este laboratorio [GitHub codigos]()
+En el siguiente link se encuentran los codigos correspondientes a este laboratorio [GitHub codigos](https://github.com/MiguelZapata04/Topicos_Telematica/tree/master/Laboratorios/Lab05/Lab05-3/codigos)
   
 ---  
   
