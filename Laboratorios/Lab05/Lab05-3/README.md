@@ -40,7 +40,7 @@ En el siguiente link se encuentran los codigos correspondientes a este laborator
   
 ## **3. Resultados**  
   
-En este link se pueden ver los resultados [GitHub resultados](https://github.com/MiguelZapata04/Topicos_Telematica/blob/master/Laboratorios/Lab05/Lab05-3/Resultados.txt)  
+En este link se pueden ver los resultados [GitHub resultados](https://github.com/MiguelZapata04/Topicos_Telematica/blob/master/Laboratorios/Lab05/Lab05-3/Resultados/Resultados.txt)  
   
   
 ---  
