@@ -1,3 +1,5 @@
+RESULTADOS DE LOS EJERCICIOS HECHOS CON MRJOB
+
 1. Salario promedio de empleados
 "1115"  62333.333333333336
 "3233"  35500.0
@@ -110,3 +112,23 @@
 "98"    [1, 4.0]
 
 11. Día en que peor evaluación en promedio han dado los usuarios
+"2014-03-20"    2.6363636363636362
+"2014-03-21"    3.8
+"2014-03-22"    3.5
+"2014-03-23"    3.4
+"2014-03-24"    3.625
+"2014-03-25"    3.3
+
+12. Día en que mejor evaluación han dado los usuarios
+"2014-03-20"    2.6363636363636362
+"2014-03-21"    3.8
+"2014-03-22"    3.5
+"2014-03-23"    3.4
+"2014-03-24"    3.625
+"2014-03-25"    3.3
+
+13. La mejor y peor película evaluada por genero
+"accion"        [465, 346]
+"deportes"      [274, 274]
+"religion"      [98, 86]
+"suspenso"      [304, 377]

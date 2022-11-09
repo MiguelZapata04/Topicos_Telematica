@@ -18,7 +18,5 @@ class MRWordFrequencyCount(MRJob):
         for j in lista_datos:
             suma_valores = suma_valores + j[1]
 
-        
-
 if __name__ == '__main__':
     MRWordFrequencyCount.run()

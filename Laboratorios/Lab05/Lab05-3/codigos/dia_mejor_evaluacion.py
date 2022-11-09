@@ -11,10 +11,10 @@ class MRWordFrequencyCount(MRJob):
         yield date, avg
 if __name__ == '__main__':
     MRWordFrequencyCount.run()
-    peor = 100000000000000000
+    mejor = 0
     fecha = ""
     for i in lista:
-        if i[0] < peor:
-            peor = i[0]
+        if i[0] > mejor:
+            mejor = i[0]
             fecha = i[1]
     print(fecha)
