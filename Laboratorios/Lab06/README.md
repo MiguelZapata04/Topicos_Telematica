@@ -37,12 +37,14 @@ Tambien, se logro ejecutarlo en AWS EMR.
 
 ### **Adecuación del entorno de desarrollo**  
   
-* Primero se copiaran los archivos desde la máquina local al servidor EMR.  
+* Primero se debe lanzar el cluster e ingresar a el como se explica en [Lanzar servidor](#como-se-despliega-el-cluster)  
+  
+* Luego, se copiaran los archivos desde la máquina local al servidor EMR.  
 ![image text](img/Copiar_datasets1.png)  
 ![image text](img/Copiar_datasets2.png)  
 ![image text](img/Copiar_datasets3.png)  
   
-* Luego se copian los archivos locales al servidor hdfs (HUE).  
+* Por ultimo, se copian los archivos locales al servidor hdfs (HUE).  
 ![image text](img/Cop%C3%ADar_locales_a_emr.png)  
 ![image text](img/Cop%C3%ADar_locales_a_emr2.png)  
   
@@ -281,7 +283,29 @@ Aqui podemos corroborar que el archivo se guardo de manera adecuada
   
 ---  
   
-## **3. Referencias**  
+## **3. Descripción del ambiente de ejecución: lenguaje de programación, librerias, paquetes, etc, con sus numeros de versiones**  
+  
+## **Como se despliega el cluster**  
+  
+1. Se ingresa al servicio EMR que proporciona AWS  
+![image text](img/Buscar_emr.png)  
+  
+2. Dado que ya se habian creado cluster, lo unico que se hace es clonar uno existente  
+![image text](img/Clonar_cluster1.png)  
+![image text](img/Clonar_cluster2.png)  
+![image text](img/Clonar_cluster3.png)  
+  
+3. Luego se espera a que el cluster se inicie  
+![image text](img/Clonar_cluster.png)  
+![image text](img/Verifica_creacion.png)  
+  
+4. Por ultimo se ingresa via ssh  
+![image text](img/comando_para_ingresar.png)  
+![image text](img/ingreso_cluster.png)
+  
+---
+  
+## **4. Referencias**  
   
 * [GitHub de la materia](https://github.com/st0263eafit/st0263-2022-2/tree/main/bigdata/03-spark)  
 * [Documentación de AWS](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-scoped-libraries.html)
