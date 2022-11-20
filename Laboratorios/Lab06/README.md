@@ -300,19 +300,19 @@ Aqui podemos corroborar que el archivo se guardo de manera adecuada
   
 3. Mostrar las tablas que se han creado `show tables;`  
 
-![image text](img/Mostrar_tablas.png)  
+  ![image text](img/Mostrar_tablas.png)  
   
 4. Mostrar la información de cada tabla  `describe hdi;`  
 
-![image text](img/Describir_tabla.png)  
+  ![image text](img/Describir_tabla.png)  
   
 5. Mostrar el contenido de una tabla `select * from hdi;`  
 
-![image text](img/select_todo.png)  
+  ![image text](img/select_todo.png)  
   
 6. Mostrar ciertas columnas y realizar filtro `select country, gni from hdi where gni < 2000;`  
 
-![image text](img/select.png)  
+  ![image text](img/select.png)  
   
 7. Crear tabla para realizar un join despues  
     ```SQL  
@@ -326,7 +326,7 @@ Aqui podemos corroborar que el archivo se guardo de manera adecuada
       
 8. Realizar JOIN `SELECT h.country, gni, expct FROM HDI h JOIN EXPO e ON (h.country = e.country) WHERE gni > 2000;`  
 
-![image text](img/join.png)  
+  ![image text](img/join.png)  
   
 9. Crear tabla que contenga un texto al cual se le realizara un conteo de palabras  
     ```SQL
@@ -339,11 +339,11 @@ Aqui podemos corroborar que el archivo se guardo de manera adecuada
       
 10. Conteo de palabras ordenado por palabra `SELECT word, count(1) AS count FROM (SELECT explode(split(line,' ')) AS word FROM docs) w GROUP BY word ORDER BY word DESC LIMIT 10;` 
 
-![image text](img/Ordenar_palabra.png)  
+  ![image text](img/Ordenar_palabra.png)  
   
 11. Ordenado por frecuencia `SELECT word, count(1) AS count FROM (SELECT explode(split(line,' ')) AS word FROM docs) w GROUP BY word ORDER BY count DESC LIMIT 10;`  
 
-![image text](img/ordenar_freceuncia_mayor_menor.png)  
+  ![image text](img/ordenar_freceuncia_mayor_menor.png)  
   
 ---  
   
