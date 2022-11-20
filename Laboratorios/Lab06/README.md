@@ -258,8 +258,14 @@ Aqui podemos corroborar que el archivo se guardo de manera adecuada
 * Se importa pandas udf  
 ![image text](img/panda_udf_importar.png)  
   
+* Se cambia la version de pandas  
+![image text](img/Paquetes_panda.png)
+  
 * Se crea una función para determinar cuantos años quedan de vida  
-![image text](img/panda_udf_determinar_a%C3%B1os_faltantes.png)
+![image text](img/edad_que_falta.png)  
+  
+* Se añade nueva columna  
+![image text](img/A%C3%B1adiendo_columna.png)
   
 * Observar cauntos valores duplicados hay  
 ![image text](img/udf_cant_registros_inlcuyendo_duplicados.png)  
@@ -280,70 +286,6 @@ Aqui podemos corroborar que el archivo se guardo de manera adecuada
   
 * Guardar archivo en formato parquet  
 ![image text](img/udf_guardar_nuevo_csv_en_formato_parquet.png)  
-  
----
-
-### **2.6 HIVE y SparkSQL. Gestión (DDL) y Consultas (DQL)**  
-  
-1. Primero hay que situarse en la sección HIVE  
-![image text](img/Hive.png)  
-  
-2. Crear tabla hdi  
-    ```SQL  
-        use usernamedb;
-        CREATE EXTERNAL TABLE HDI (id INT, country STRING, hdi FLOAT, lifeex INT, mysch INT, eysch INT, gni INT) 
-        ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
-        STORED AS TEXTFILE 
-        LOCATION 's3://datamazapataj/onu/hdi/'
-    ```  
-    ![image text](img/Crear_tabla_hdi.png)  
-  
-3. Mostrar las tablas que se han creado `show tables;`  
-
-  ![image text](img/Mostrar_tablas.png)  
-  
-4. Mostrar la información de cada tabla  `describe hdi;`  
-
-  ![image text](img/Describir_tabla.png)  
-  
-5. Mostrar el contenido de una tabla `select * from hdi;`  
-
-  ![image text](img/select_todo.png)  
-  
-6. Mostrar ciertas columnas y realizar filtro `select country, gni from hdi where gni < 2000;`  
-
-  ![image text](img/select.png)  
-  
-7. Crear tabla para realizar un join despues  
-    ```SQL  
-        use usernamedb;
-        CREATE EXTERNAL TABLE EXPO (country STRING, expct FLOAT) 
-        ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
-        STORED AS TEXTFILE 
-        LOCATION 's3://datamazapataj/datasets/onu/export/'
-    ```  
-    ![image text](img/tabla_expo.png)  
-      
-8. Realizar JOIN `SELECT h.country, gni, expct FROM HDI h JOIN EXPO e ON (h.country = e.country) WHERE gni > 2000;`  
-
-  ![image text](img/join.png)  
-  
-9. Crear tabla que contenga un texto al cual se le realizara un conteo de palabras  
-    ```SQL
-        use usernamedb;
-        CREATE EXTERNAL TABLE docs (line STRING) 
-        STORED AS TEXTFILE 
-        LOCATION 'hdfs:///user/hadoop/datasets/gutenberg-small/';
-    ```  
-    ![image text](img/tabla_wc.png)  
-      
-10. Conteo de palabras ordenado por palabra `SELECT word, count(1) AS count FROM (SELECT explode(split(line,' ')) AS word FROM docs) w GROUP BY word ORDER BY word DESC LIMIT 10;` 
-
-  ![image text](img/Ordenar_palabra.png)  
-  
-11. Ordenado por frecuencia `SELECT word, count(1) AS count FROM (SELECT explode(split(line,' ')) AS word FROM docs) w GROUP BY word ORDER BY count DESC LIMIT 10;`  
-
-  ![image text](img/ordenar_freceuncia_mayor_menor.png)  
   
 ---  
   
