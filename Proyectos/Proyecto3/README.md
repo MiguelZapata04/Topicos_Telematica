@@ -31,7 +31,7 @@ Se hara uso del servicio Google Colab con el fin de realizar una serie de consul
   
 **Plataforma de nube usada:** AWS (Amazon Web Services)    
 **Servicio de almacenamiento escalable en nube:** Amazon S3  
-**FrameWork de computación en cluster utilizado:** Spark
+**FrameWork de computación en cluster utilizado:** Spark  
 **Servicio para escribir codigo:** Google Colab  
 **Lenguaje de programación usado:** Python (3.10.7)  
 **Librerias usadas:** pandas_udf, PandasUDFType, udf, StringType, DoubleType, IntegerType, pyspark, SparkSQL  
