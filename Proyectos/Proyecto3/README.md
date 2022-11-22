@@ -23,9 +23,9 @@ Se hara uso del servicio Google Colab con el fin de realizar una serie de consul
   
 ### **Codigos que se usaron**  
   
-* [Codigo para realizar la conexión con S3 de AWS y guardar las consultas](codigos/PySpark_AWS.ipynb)  
+* [Codigo para realizar la conexión con S3 de AWS y guardar las consultas](Codigos/PySpark_AWS.ipynb)  
 
-* [Codigo donde se realizaron las consultas](codigos/Google_Colab_Consultas.ipynb)
+* [Codigo donde se realizaron las consultas](Codigos/Google_Colab_Consultas.ipynb)
   
 ### **Detalles técnicos**  
   
